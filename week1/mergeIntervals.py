@@ -4,7 +4,6 @@ class Solution:
         intervals.sort()
         
         lst = []
-        count = 0
         if len(intervals) == 1:
             return intervals
         

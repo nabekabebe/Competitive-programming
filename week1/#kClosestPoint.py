@@ -1,4 +1,4 @@
-# In Progress
+# In Progress Trial
 import math
 def kClosest(points, k: int):     
     lst  = [0] * k
@@ -18,6 +18,3 @@ def kClosest(points, k: int):
                 lst[pre] = [sqr, points[i]] 
                                   
     return [i[1] for i in lst]
-
-print(kClosest([[3,2],[7,7],[9,-9],[4,-6],[-3,-6]],
-3))
